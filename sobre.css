@@ -1,0 +1,8 @@
+body{
+    background-image: url(fundo\ preto.jpg);
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 81px;
+}

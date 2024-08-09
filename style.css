@@ -1,0 +1,173 @@
+
+
+body{
+    background-image: url(fundo\ preto.jpg) ;
+    color: white;
+    font-family: poppinsregular;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 81px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    font-size: 40px;
+}
+img{
+    width: 500px;
+    padding: 10px;
+    position: absolute; 
+	left: 90px; 
+	top: 90px; 
+    top: 50px;
+    width: 350px;
+    z-index: 100;
+}
+li{
+    display:inline-table;
+    margin: 40px;
+    height: 80px;
+    line-height:150px;
+    width: 26%;
+}
+
+
+a{
+    color: white;
+  
+}
+
+
+a:hover{
+    color:#8757d4;
+    transition: 0.3s all;
+
+}
+
+#inscreva-se-btn{
+    border: 2px solid#8757d4;
+    padding:10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btn:hover{
+    background-color:#8757d4;
+    color: white;
+}
+
+h1{
+    font-weight: 400;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 50px;
+    font-family: poppinsmedium;
+    text-align: center;
+    text-indent: 50px;
+    height: fit-content 50px;
+}
+
+
+span{
+    color:#8757d4;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-size: larger;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+}
+h5{
+    font-size: 40px;
+    text-align: center;
+}
+form [type="submit"]{
+    background-color: #b48fef;
+    color: #514e4e;
+    font-weight: bold;
+    text-align: right;
+}
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 10px;
+    
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    background-color:#9e979e ;
+    color: #080808;
+}
+.entrar input {
+    cursor: pointer;
+    top: 100px;
+    border-radius: 25px;
+    border: none;
+    background-color:#8757d4 ;
+    color:#0b0a0a ;
+}
+
+h1 {
+    color: #FAFAFA;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: 300%;
+}
+
+    
+    h4{
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+       
+       
+    }
+
+h3 {
+font-size: 100PX;
+text-align:left;
+position:absolute;
+top: 200px;
+left: 60px; 
+
+}
+
+
+.caixa {
+    margin-top: 600px;
+}
+
+.caixa img {
+    width: 110px;
+}
+
+input:focus {
+    outline: none;
+}
+
